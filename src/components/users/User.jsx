@@ -58,7 +58,7 @@ const User = ({ user, getUser, getUserRepos, loading, repos,match }) => {
               <p>{bio}</p>
             </Fragment>
           )}
-          <a className="btn btn-dark my-1" href={html_url}>
+          <a className="btn btn-dark my-1" href={html_url} target="_blank" rel="noopener noreferrer">
             Visit Github profile
           </a>
           <ul>
